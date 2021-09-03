@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -38,21 +38,13 @@
     <script src="js/modernizr.custom.js"></script>
 </head>
 
-<body class="home light">
-    <style>
-.center {
-  margin: auto;
-  width: 60%;
-  border: 3px solid #73AD21;
-  padding: 10px;
-}
-</style>
+<body class="blog-post light">
 
 <!-- Header Starts -->
 <header class="header" id="navbar-collapse-toggle">
     <!-- Fixed Navigation Starts -->
     <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
-        <li class="icon-box active">
+        <li class="icon-box">
             <i class="fa fa-home"></i>
             <a href="index.html">
                 <h2>Home</h2>
@@ -76,7 +68,7 @@
                 <h2>Contact</h2>
             </a>
         </li>
-        <li class="icon-box">
+        <li class="icon-box active">
             <i class="fa fa-comments"></i>
             <a href="blog.html">
                 <h2>Blog</h2>
@@ -92,38 +84,66 @@
             <span></span>
             <span></span>
             <ul class="list-unstyled" id="menu">
-                <li class="active"><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
                 <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
                 <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
                 <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li class="active"><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
             </ul>
         </div>
     </nav>
     <!-- Mobile Menu Ends -->
 </header>
 <!-- Header Ends -->
+<!-- Page Title Starts -->
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>my <span>blog</span></h1>
+</section>
+<!-- Page Title Ends -->
 <!-- Main Content Starts -->
-<section class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1">
-    <div class="color-block d-none d-lg-block"></div>
-    <div class="row home-details-container align-items-center">
-        <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
-        <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
-            <div>
-                <img src="img/img-mobile.jpg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="my picture" />
-                <h2 class="text-uppercase poppins-font">Mahendra Neupane</h2>
-                 <h3>"Entrepreneur"</h3>
-                <p class="open-sans-font align-items-center">I hate to be the bearer of bad news, but in life, you're going to face A LOT of disappointments. You may not get that dream job you wanted or your supporter might dump you or you might not get that dream job. it's easy to forget that the more you do, the more you fail. As they say: "You win some. You lose most." If you're not failing, then you're either not doing enough, and/or you're not challenging yourself enough. Not only that, when you graduate and step into the real world,  you won't have a syllabus or an academic calendar that tells you exactly what you can expect for every day of the year. That's a big deal. That fact alone is why you're going to fail a lot at first. Just remember it's a learning experience, and the more you practice,  the more you'll succeed.  Whatever the disappointment is, you must remain hopeful because, after all, hope is what keeps us alive.</p>
-                <a class="button" href="about.html">
-                    <span class="button-text">more about me</span>
-                    <span class="button-icon fa fa-arrow-right"></span>
-                </a>
-            </div>
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <!-- Article Starts -->
+            <article class="col-12">
+                <!-- Meta Starts -->
+                <div class="meta open-sans-font">
+                    <span><i class="fa fa-user"></i> Mahendra Neupane</span>
+                    <span class="date"><i class="fa fa-calendar"></i> 10 January 2018</span>
+                    <span><i class="fa fa-tags"></i> Deep Learning</span>
+                </div>
+                <!-- Meta Ends -->
+                <!-- Article Content Starts -->
+                <h1 class="text-uppercase text-capitalize">Everything You Need to Know About Deep Learning</h1>
+                <img src="img/blog/blog-post-2.jpg" class="img-fluid" alt="Blog image"/>
+                <div class="blog-excerpt open-sans-font pb-5">
+                    <p>Deep learning attempts to mimic the human brain albeit far from matching its ability enabling systems to cluster data and make predictions with incredible accuracy.
+
+                    </p>
+                    <p>Deep learning is a subset of machine learning, which is essentially a neural network with three or more layers.
+                    These neural networks attempt to simulate the behavior of the human brain—albeit far from matching its ability—allowing it to “learn” from large
+                    amounts of data. While a neural network with a single layer can still make approximate predictions, additional hidden layers
+                    can help to optimize and refine for accuracy.Deep learning drives many artificial intelligence (AI) applications and services that improve automation,
+                    performing analytical and physical tasks without human intervention. Deep learning technology lies behind everyday products and services (such as digital assistants,
+                    voice-enabled TV remotes, and credit card fraud detection) as well as emerging technologies (such as self-driving cars).
+
+                    </p>
+                    <p>Deep learning neural networks, or artificial neural networks, attempts to mimic the human brain through a combination of data inputs, weights, and bias. These elements work together to accurately recognize,
+                    classify, and describe objects within the data.Deep neural networks consist of multiple layers of interconnected nodes, each building upon the previous layer to refine and optimize the prediction or categorization.
+                    This progression of computations through the network is called forward propagation. The input and output layers of a deep neural network are called visible layers. The input layer is where the deep learning model
+                    ingests the data for processing, and the output layer is where the final prediction or classification is made.Another process called backpropagation uses algorithms, like gradient descent, to calculate errors in
+                    predictions and then adjusts the weights and biases of the function by moving backwards through the layers in an effort to train the model. Together, forward propagation and backpropagation allow a neural network to
+                    make predictions and correct for any errors accordingly. Over time, the algorithm becomes gradually more accurate.The above describes the simplest type of deep neural network in the simplest terms. However, deep learning
+                    algorithms are incredibly complex, and there are different types of neural networks to address specific problems or datasets.
+
+                   </p>
+                </div>
+                <!-- Article Content Ends -->
+            </article>
+            <!-- Article Ends -->
         </div>
     </div>
 </section>
-<!-- Main Content Ends -->
-
 <!-- Template JS Files -->
 <script src="js/jquery-3.5.0.min.js"></script>
 <script src="js/styleswitcher.js"></script>
@@ -140,6 +160,4 @@
 
 </body>
 
-
-<!-- Mirrored from slimhamdi.net/tunis/light/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Jul 2021 06:24:41 GMT -->
 </html>
